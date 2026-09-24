@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diguim Cabeleireiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Diguim Cabeleleiro</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="cortes.html">Cortes</a>
+            <a href="contato.html">Contato</a>
+            <a href="agendamento.html">Agendamento</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Agende seu corte</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required>
+            <br>
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data">
+            <br>
+            <label for="hora">Horario</label>
+            <input type="time" name="hora" id="hora">
+            <br>
+            <label for="especialidades">Profissionais</label>
+            <select name="especialidades" id="especialidades">
+                <option value="">Selecione uma opção</option>
+                <option value="clinico-geral">Diguim</option>
+                <option value="cardiologia">Cristofer</option>
+                <option value="demartologia">Garcia</option>
+                <option value="pediatria">Gabriel Roberto</option>
+            </select>
+            <br>
+            <button type="submit">Confirmar Agendamento</button>
+        </form>
+    </main>
+</body>
+
+</html>
